@@ -1,0 +1,21 @@
+# 可执行文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Go 编译输出
+*.out
+*.test
+*.test.exe
+
+# OS 系统文件
+.DS_Store
+Thumbs.db
