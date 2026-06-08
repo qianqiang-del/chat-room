@@ -83,7 +83,7 @@ func EnsureStreamGroup() error {
 	return nil
 }
 
-// PushMessageToStream 将消息推送到Stream中
+// PushMessageToStream 将消息推送到Stream中 生产者
 func PushMessageToStream(sender, content, msgType, target string) error {
 	if rdb == nil {
 		return fmt.Errorf("redis 未初始化")
